@@ -17,7 +17,7 @@ def hangman():
 
     print "Player 2: Guess a letter, followed by the RETURN key. You are allowed 6 mistakes. "
 
-    #repeating 6 times for standard hangman rules
+    
     while wrong_guesses < 6:
         if correct_guesses < len(word):
             guess = raw_input()
