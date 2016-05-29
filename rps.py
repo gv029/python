@@ -1,5 +1,5 @@
 #A simple Rock, Paper, Scissors program that runs 10 times and keeps score
-#By: Gabriel Vidal
+#By: gv029
 import random
 
 def welcome():
