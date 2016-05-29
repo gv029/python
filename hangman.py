@@ -10,14 +10,14 @@ def hangman():
     word = list(x)
 
     revealList = ["_"] * len(word)
-    print revealList
+    print " ".join(revealList)
     correct_guesses = 0
     t_guesses = 0
     wrong_guesses = t_guesses - correct_guesses
 
     print "Player 2: Guess a letter, followed by the RETURN key. You are allowed 6 mistakes. "
 
-    
+
     while wrong_guesses < 6:
         if correct_guesses < len(word):
             guess = raw_input()
