@@ -23,14 +23,15 @@ def getguess():
     label1 = Label(root, text=guess)
     label1.pack()
     root.update()
-    #entry1.delete(0,'end')
 
+    #entry1.delete(0,'end')
     return guess
+
 
 def compare(word, guess, solution):
     for i in range(len(word)):
         if guess == word[i]:
-            solution[i] = word[i]
+            solution[i] = guess
 
         print solution
         return solution

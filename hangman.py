@@ -28,6 +28,7 @@ def hangman():
                     revealList[i] = guess
                     correct_guesses += 1
 
+
             print " ".join(revealList)
             t_guesses += 1
             wrong_guesses = t_guesses - correct_guesses
